@@ -1,0 +1,72 @@
+.page {
+  background-color: #f4d04e;
+}
+
+.shape {
+  height: 522px;
+  width: 384px;
+  background-color: #ffff;
+  border-radius: 20px;
+  border: solid 1px black;
+  box-shadow: 10px 10px 0px rgba(0, 0, 0, 3);
+}
+.shape:hover {
+  box-shadow: 15px 15px 0px rgba(0, 0, 0, 3);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 218.5px;
+  margin-bottom: 219.5px;
+}
+.image {
+  margin: 24px;
+  max-width: 336px;
+}
+.learning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 82px;
+  max-height: 29px;
+  background-color: #f4d04e;
+}
+.container2 {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.author {
+  display: flex;
+  margin-top: 24px;
+}
+.author_name {
+  margin-left: 12px;
+  margin-top: 5.5px;
+  margin-bottom: 5.5px;
+}
+@font-face {
+  font-family: "FigtreeBold";
+  src: url("/fonts/static/Figtree-ExtraBold.ttf") format("woff2");
+  font-style: normal;
+}
+.bold_text {
+  font-family: "FigtreeBold";
+}
+.bold_text:hover {
+  color: #f4d04e;
+}
+.bold_text2 {
+  font-family: "FigtreeBold";
+}
+@font-face {
+  font-family: "FigtreeSemiBold";
+  src: url("/fonts/static/Figtree-SemiBold.ttf") format("woff2");
+  font-style: normal;
+  font-weight: 100;
+}
+.semibold_text {
+  font-family: "FigtreeSemiBold";
+}
+.description {
+  color: #7f7f7f;
+}
